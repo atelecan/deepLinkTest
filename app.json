@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "deepLinks2",
-    "slug": "deepLinks2",
+    "name": "Nester",
+    "slug": "nester",
     "version": "1.0.0",
+    "scheme": "nester",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.alexandertelecan.nester"
     },
     "web": {
       "favicon": "./assets/favicon.png"
