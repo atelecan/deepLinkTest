@@ -2,8 +2,8 @@
   "expo": {
     "name": "Nester",
     "slug": "nester",
+    "scheme": "https",
     "version": "1.0.0",
-    "scheme": "nester",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,9 +15,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },

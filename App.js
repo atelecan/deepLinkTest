@@ -4,10 +4,9 @@ import { StyleSheet, Text, View } from "react-native";
 
 import MainNavigator from "./src/navigation/mainNavigator";
 import { NavigationContainer } from "@react-navigation/native";
-import { StatusBar } from "expo-status-bar";
 import config from "./src/deepLinking/linking";
 
-const prefix = Linking.createURL("/");
+const prefix = Linking.createURL("/www.nestertest.com");
 export default function App() {
   const linking = {
     prefixes: [prefix],
@@ -20,11 +19,11 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: "#fff",
+//     alignItems: "center",
+//     justifyContent: "center",
+//   },
+// });
