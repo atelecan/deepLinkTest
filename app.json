@@ -12,6 +12,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": ["./plugins/withAndroidVerifiedLinksWorkaround"],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -31,7 +32,7 @@
           "data": [
             {
               "scheme": "https",
-              "host": "*.nestertest.com"
+              "host": "nestertest.com"
             }
           ],
           "category": ["BROWSABLE", "DEFAULT"]
