@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.alexandertelecan.nester",
+      "sha256_cert_fingerprints": [
+        "F6:66:00:5E:1E:61:BD:C2:EF:8B:D3:8A:C6:E5:0D:DD:03:B2:C8:71:63:9F:0B:DF:42:29:90:AC:C6:6F:66:2F"
+      ]
+    }
+  }
+]
