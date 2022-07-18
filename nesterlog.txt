@@ -54,3 +54,16 @@ alexander@Alexanders-MacBook-Pro deepLinks2 % adb logcat | grep nestertest.com
 07-18 13:14:32.254 28796 22044 I IntentFilterIntentOp: Verifying IntentFilter. verificationId:21 scheme:"https" hosts:"www.nestertest.com" package:"com.alexandertelecan.nester". [CONTEXT service_id=244 ]
 07-18 13:22:35.685   987  1231 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=https://www.nestertest.com/... cmp=com.sec.android.app.sbrowser/.SBrowserLauncherActivity (has extras)} from uid 10256
 07-18 13:22:35.801   987  1231 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=https://www.nestertest.com/... cmp=com.sec.android.app.sbrowser/.custom_tab.SeparateTaskCustomTabActivity (has extras)} from uid 10240
+
+------
+
+com.alexandertelecan.nester:
+    ID: bca5c753-cd7d-42d3-a9a7-5450912252a1
+    Signatures: [F9:5C:9C:35:28:17:10:F4:A7:39:1D:93:EC:14:A3:0A:FA:B3:02:B8:92:2D:49:F0:34:7B:D9:9F:93:B6:A2:BF]
+    Domain verification state:
+      www.nestertest.com: verified
+    User 0:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          www.nestertest.com
