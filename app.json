@@ -32,11 +32,7 @@
           "data": [
             {
               "scheme": "https",
-              "host": "*.nestertest.com"
-            },
-            {
-              "scheme": "http",
-              "host": "*.nestertest.com"
+              "host": "www.nestertest.com"
             }
           ],
           "category": ["BROWSABLE", "DEFAULT"]
