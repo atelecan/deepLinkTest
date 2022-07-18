@@ -7,7 +7,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import config from "./src/deepLinking/linking";
 import { useEffect } from "react";
 
-const prefix = Linking.createURL("/");
+const prefix = Linking.createURL("https://www.nestertest.com");
 export default function App() {
   const linking = {
     prefixes: [prefix],
