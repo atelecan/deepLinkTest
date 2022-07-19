@@ -5,7 +5,7 @@ import { Pressable, Text, View } from "react-native";
 import React from "react";
 
 export default function LinkingSelection() {
-  const link = "https://www.nestertest.com";
+  const link = "nester://";
   return (
     <View>
       <Pressable onPress={() => Linking.openURL(`${link}/home`)}>
